@@ -1,0 +1,165 @@
+/* -----  google Font  -----*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+
+body {
+ margin: 0;
+ padding: 0;
+ font-family: Roboto, sans-serif;
+ background-image: url('fon.jpg');
+ -webkit-background-size: cover;
+ background-size: cover;
+}
+.dws-wrapper {
+ position: absolute;
+ width: 99%;
+ height: 99%;
+}
+
+.dws-form {
+  background-color: rgba(255, 255, 255, 0.281);
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.dws-form a {
+  text-decoration: none;
+  transition: .5s;
+  color: #298cad;
+}
+
+.dws-form a :hover {
+  color: #36d2ff;
+}
+
+.dws-form ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dws-form input {
+  display: block;
+  width: 100%;
+}
+
+.tab-form {
+  background-color: white;
+  display: none;
+  padding: 30px 20px 20px;
+  height: 80%;
+}
+
+.tab-form.active {
+  display: block;
+}
+
+label.tab {
+  color: white;
+  font-weight: 680;
+  padding: 15px;
+  display: inline-block;
+  border-radius: 3px 3px 0 0;
+  margin-bottom: -1px;
+  cursor: pointer;
+}
+
+label.tab.active {
+  background-color: white;
+  color: #1d5f75;
+}
+
+.input {
+  font-style: 16px;
+  border: 2px solid #e9eaea;
+  padding: 12px 14px;
+  box-sizing: border-box;
+  margin-bottom: 22px;
+  color: #1d5f75;
+  outline: none;
+}
+
+a.button {
+  background: #1d5f75;
+  color:white;
+  font-style: 18px;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+  line-height: 46px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  font-style: 24px;
+}
+
+.social a {
+  width: 40px;
+  height: 40px;
+  display: block;
+  line-height: 40px;
+  text-align: center;
+}
+
+.text {
+  margin-top: 10px;
+  display: block;
+  font-size: 12px;
+  text-align: center;
+}
+
+.present {
+  border-radius: 2%;
+  border: 2px solid #7b9c9c;
+  height: 200px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.main_calendar {
+  border-radius: 2%;
+  border: 2px solid #7b9c9c;
+  height: 400px;
+  width: 50%;
+  display: block;
+}
+
+.main_calendar input {
+  margin: 10px;
+  width: 200px;
+}
+
+.main_calendar button {
+  margin-left: 10px;
+  margin-bottom: 5px;
+  width: 200px;
+}
+
+.count {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.count p {
+  padding: 10px;
+}
+
+.href {
+  font-size: 40px;
+}
+
+table {
+  border: 5px solid #1d5f75;
+}
+
+.del {
+  display: none;
+}
